@@ -1,4 +1,4 @@
-# Translator Text API V3 - .NET Core Samples, C#
+# Translator Text API V3 - .NET Core Samples, Java
 
 This repository includes Java samples for Microsoft Translator. Each sample corresponds to a **Quickstart** activity on [doc.microsoft.com](https://docs.microsoft.com/azure/cognitive-services/translator/), including:
 
