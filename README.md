@@ -17,7 +17,9 @@ This repository includes Java samples for Microsoft Translator. Each sample corr
 
 ## Code samples
 
-This repository includes a sample for each of the methods made available by the Microsoft Translator Text API v3. To use each of the samples, follow the instructions below. **Note**: The directory for each sample includes a Gradle build configuration.
+This repository includes a sample for each of the methods made available by the Microsoft Translator Text API v3. To use each of the samples, follow the instructions below.
+
+**Important note**: The directory for each sample includes a Gradle build configuration.
 
 * Create a working directory for your project. For example: `mkdir sample-project`.
 * Initialize your project with Gradle: `gradle init --type basic`. When prompted to choose a **DSL**, select **Kotlin**.
