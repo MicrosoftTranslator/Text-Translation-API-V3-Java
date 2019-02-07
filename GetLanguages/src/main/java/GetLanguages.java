@@ -5,7 +5,6 @@ import com.google.gson.*;
 import com.squareup.okhttp.*;
 
 public class GetLanguages {
-    String subscriptionKey = "YOUR_SUBSCRIPTION_KEY";
     String url = "https://api.cognitive.microsofttranslator.com/languages?api-version=3.0";
 
     // Instantiates the OkHttpClient.
@@ -15,7 +14,6 @@ public class GetLanguages {
     public String Get() throws IOException {
         Request request = new Request.Builder()
                 .url(url).get()
-                .addHeader("Ocp-Apim-Subscription-Key", subscriptionKey)
                 .addHeader("Content-type", "application/json").build();
         Response response = client.newCall(request).execute();
         return response.body().string();
