@@ -6,11 +6,11 @@ import com.squareup.okhttp.*;
 
 public class BreakSentence {
 	/*  Configure the local environment:
-	* Set the AUTOSUGGEST_SUBSCRIPTION_KEY and AUTOSUGGEST_ENDPOINT environment
+	* Set the TRANSLATOR_TEXT_SUBSCRIPTION_KEY and TRANSLATOR_TEXT_ENDPOINT environment
 	* variables on your local machine using the appropriate method for your
 	* preferred shell (Bash, PowerShell, Command Prompt, etc.). 
 	*
-	* For AUTOSUGGEST_ENDPOINT, use the same region you used to get your
+	* For TRANSLATOR_TEXT_ENDPOINT, use the same region you used to get your
 	* subscription keys.
 	*
 	* If the environment variable is created after the application is launched
