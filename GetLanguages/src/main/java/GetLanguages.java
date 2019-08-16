@@ -7,8 +7,8 @@ import com.squareup.okhttp.*;
 public class GetLanguages {
     /*  Configure the local environment:
     * Set the TRANSLATOR_TEXT_ENDPOINT environment variable on your local
-	* machine using the appropriate method for your preferred shell (Bash,
-	* PowerShell, Command Prompt, etc.). 
+    * machine using the appropriate method for your preferred shell (Bash,
+    * PowerShell, Command Prompt, etc.). 
     *
     * If the environment variable is created after the application is launched
     * in a console or with Visual Studio, the shell (or Visual Studio) needs to be
