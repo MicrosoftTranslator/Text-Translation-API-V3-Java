@@ -5,8 +5,21 @@ import com.google.gson.*;
 import com.squareup.okhttp.*;
 
 public class AltTranslation {
-    String subscriptionKey = "YOUR_SUBSCRIPTION_KEY";
-    String url = "https://api.cognitive.microsofttranslator.com/dictionary/lookup?api-version=3.0&from=en&to=es";
+    /*  Configure the local environment:
+    * Set the TRANSLATOR_TEXT_SUBSCRIPTION_KEY and TRANSLATOR_TEXT_ENDPOINT environment
+    * variables on your local machine using the appropriate method for your
+    * preferred shell (Bash, PowerShell, Command Prompt, etc.). 
+    *
+    * For TRANSLATOR_TEXT_ENDPOINT, use the same region you used to get your
+    * subscription keys.
+    *
+    * If the environment variable is created after the application is launched
+    * in a console or with Visual Studio, the shell (or Visual Studio) needs to be
+    * closed and reloaded to take the environment variable into account.
+    */
+    private static String subscriptionKey = System.getenv("TRANSLATOR_TEXT_SUBSCRIPTION_KEY");
+    private static String endpoint = System.getenv("TRANSLATOR_TEXT_ENDPOINT");
+    String url = endpoint + "/dictionary/lookup?api-version=3.0&from=en&to=es";
 
     // Instantiates the OkHttpClient.
     OkHttpClient client = new OkHttpClient();
