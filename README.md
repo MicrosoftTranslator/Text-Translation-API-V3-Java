@@ -1,4 +1,17 @@
-# Translator Text API V3 - .NET Core Samples, Java
+---
+page_type: sample
+name: Microsoft Translator Java samples (v3)
+description: This repository includes Java code samples for Microsoft Translator. 
+urlFragment: translator-java-v3
+languages:
+- java
+products:
+- azure
+- azure-cognitive-services
+- azure-translator
+---
+
+# Translator API V3 - Java Samples
 
 This repository includes Java samples for Microsoft Translator. Each sample corresponds to a **Quickstart** activity on [doc.microsoft.com](https://docs.microsoft.com/azure/cognitive-services/translator/), including:
 
@@ -13,11 +26,11 @@ This repository includes Java samples for Microsoft Translator. Each sample corr
 
 * [JDK 7 or later](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Gradle](https://gradle.org/install/)
-* An Azure subscription key for Translator Text
+* An Azure subscription key for Translator
 
 ## Code samples
 
-This repository includes a sample for each of the methods made available by the Microsoft Translator Text API v3. To use each of the samples, follow the instructions below.
+This repository includes a sample for each of the methods made available by the Microsoft Translator API v3. To use each of the samples, follow the instructions below.
 
 **Important note**: The directory for each sample includes a Gradle build configuration.
 
@@ -29,6 +42,6 @@ This repository includes a sample for each of the methods made available by the 
 
 ## Resources
 
-* [What is the Translator Text API?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
-* [v3 Translator Text API Reference](https://docs.microsoft.com/azure/cognitive-services/translator/)
+* [What is Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview)
+* [v3 Translator API Reference](https://docs.microsoft.com/azure/cognitive-services/translator/)
 * [Supported languages](https://docs.microsoft.com/azure/cognitive-services/translator/language-support)
