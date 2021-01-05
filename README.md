@@ -15,18 +15,21 @@ products:
 
 This repository includes Java samples for Microsoft Translator. Each sample corresponds to a **Quickstart** activity on [doc.microsoft.com](https://docs.microsoft.com/azure/cognitive-services/translator/), including:
 
-* [Translating text](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-translate)
-* [Transliterating text](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-transliterate)
-* [Identifying the language of source text](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-detect)
-* [Getting alternate translations](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-dictionary)
-* [Getting a complete list of supported languages](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-languages)
-* [Determining sentence length](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-java-sentences)
+* Translating text
+* Transliterating text
+* Identifying the language of source text
+* Getting alternate translations
+* Getting a complete list of supported languages
+* Determining sentence length
+
+[Get started with the Translator quickstart](https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-translator).
 
 ## Prerequisites
 
 * [JDK 7 or later](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Gradle](https://gradle.org/install/)
-* An Azure subscription key for Translator
+* An Azure subscription - [Sign-up for a free account](https://docs.microsoft.com/azure/cognitive-services/translator/translator-text-how-to-signup)!
+* A Translator resource - [Create a Translator resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextTranslation)
 
 ## Code samples
 
