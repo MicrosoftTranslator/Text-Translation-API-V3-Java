@@ -16,7 +16,7 @@ products:
 This repository includes Java samples for Microsoft Translator. Each sample corresponds to a **Quickstart** activity on [doc.microsoft.com](https://docs.microsoft.com/azure/cognitive-services/translator/), including:
 
 * Translating text
-* Transliterating text
+* Transliterating text 
 * Identifying the language of source text
 * Getting alternate translations
 * Getting a complete list of supported languages
